@@ -68,5 +68,6 @@
     "run:web": "cd examples/web && yarn run:web",
     "test": "jest"
   },
+  "name": "react-native-apple-payments",
   "version": "1.0.12"
 }
