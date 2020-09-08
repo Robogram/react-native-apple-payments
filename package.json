@@ -1,0 +1,23 @@
+{
+  "name": "react-native-apple-payments",
+  "version": "1.0.1",
+  "description": "Accept Payments with Apple Pay and Android Pay using the Payment Request API",
+  "main": "index.js",
+  "scripts": {
+  	"precommit": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "lerna": "^2.0.0",
+    "lint-staged": "^4.0.0",
+    "prettier": "^1.4.4"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "author": "Geottuse",
+  "license": "MIT"
+}
