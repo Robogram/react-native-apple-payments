@@ -1,6 +1,6 @@
 {
   "name": "react-native-apple-payments",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "description": "Accept Payments with Apple Pay and Android Pay using the Payment Request API",
   "main": "index.js",
   "scripts": {
