@@ -1,23 +1,72 @@
 {
-  "name": "react-native-apple-payments",
-  "version": "1.0.11",
-  "description": "Accept Payments with Apple Pay and Android Pay using the Payment Request API",
-  "main": "index.js",
-  "scripts": {
-  	"precommit": "lint-staged",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "react-native-payments",
+  "_id": "react-native-payments@0.7.1",
+  "_inBundle": false,
+  "_integrity": "sha512-NXal4tTP8ov5nmdHhyME2BHnl2LUuGi2QoVFJgDemW+RnNEe+f6NTCOPIW8ipTT9qT6TuUNHxbYFCk49Z0p1pw==",
+  "_location": "/react-native-payments",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-payments",
+    "name": "react-native-payments",
+    "escapedName": "react-native-payments",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-payments/-/react-native-payments-0.7.1.tgz",
+  "_shasum": "aaa28a6aac7639acbf4b239629f40111bfa5f73c",
+  "_spec": "react-native-payments",
+  "_where": "/Users/geottuse/Desktop/Dropbox/building/matchchat/ios",
+  "author": {
+    "name": "Geottuse"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "es6-error": "^4.0.2",
+    "uuid": "^3.1.0",
+    "validator": "^7.0.0"
+  },
+  "deprecated": false,
   "devDependencies": {
-    "lerna": "^2.0.0",
-    "lint-staged": "^4.0.0",
-    "prettier": "^1.4.4"
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "husky": "^0.14.1",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
   },
-  "lint-staged": {
-    "*.js": [
-      "prettier --single-quote --write",
-      "git add"
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/examples/",
+      "lib/js/__tests__"
     ]
   },
-  "author": "Geottuse",
-  "license": "MIT"
+  "keywords": [
+    "react",
+    "react-native",
+    "apple-pay",
+    "stripe",
+    "braintree",
+    "payments"
+  ],
+  "license": "MIT",
+  "name": "react-native-payments",
+  "peerDependencies": {
+    "react": ">=15",
+    "react-native": ">=0.41"
+  },
+  "scripts": {
+    "run:demo": "cd examples/native && yarn run:demo",
+    "run:ios": "cd examples/native && yarn run:ios",
+    "run:packager": "cd examples/native && yarn run:packager",
+    "run:web": "cd examples/web && yarn run:web",
+    "test": "jest"
+  },
+  "version": "1.0.12"
 }
