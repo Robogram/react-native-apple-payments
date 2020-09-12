@@ -1,16 +1,15 @@
 {
-  "_from": "react-native-payments",
-  "_id": "react-native-payments@0.7.1",
+  "_from": "react-native-apple-payments",
   "_inBundle": false,
   "_integrity": "sha512-NXal4tTP8ov5nmdHhyME2BHnl2LUuGi2QoVFJgDemW+RnNEe+f6NTCOPIW8ipTT9qT6TuUNHxbYFCk49Z0p1pw==",
-  "_location": "/react-native-payments",
+  "_location": "/react-native-apple-payments",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "react-native-payments",
-    "name": "react-native-payments",
-    "escapedName": "react-native-payments",
+    "raw": "react-native-apple-payments",
+    "name": "react-native-apple-payments",
+    "escapedName": "react-native-apple-payments",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -19,9 +18,8 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-native-payments/-/react-native-payments-0.7.1.tgz",
-  "_shasum": "aaa28a6aac7639acbf4b239629f40111bfa5f73c",
-  "_spec": "react-native-payments",
+  "_shasum": "1ae17fb424397a896c6eed864e21a02cf1cf3eef",
+  "_spec": "react-native-apple-payments",
   "_where": "/Users/geottuse/Desktop/Dropbox/building/matchchat/ios",
   "author": {
     "name": "Geottuse"
@@ -56,7 +54,7 @@
     "payments"
   ],
   "license": "MIT",
-  "name": "react-native-payments",
+  "name": "react-native-apple-payments",
   "peerDependencies": {
     "react": ">=15",
     "react-native": ">=0.41"
@@ -68,6 +66,5 @@
     "run:web": "cd examples/web && yarn run:web",
     "test": "jest"
   },
-  "name": "react-native-apple-payments",
-  "version": "1.0.12"
+  "version": "1.0.17"
 }
